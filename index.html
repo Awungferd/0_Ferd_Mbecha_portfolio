@@ -209,14 +209,18 @@
             aria-labelledby="pills-home-tab"
           >
             <p>
+              <div class="contento"></div>
               <h3 class="awesome"> <i class="far fa-smile-beam"></i> Content </h3>
-              <i class="fas fa-check-circle">Extend basic web page structures, use graphical
+              <div class="divide">            
+                  <i class="fas fa-check-circle">Extend basic web page structures, use graphical
               elements and style with CSS</i>
 
-               • CSS Classes <br> • CSS Pseudo-classes <br> •
+   • CSS Classes <br> • CSS Pseudo-classes <br> •
               Debugging <br> <b>Box-Model:</b>  Goal: Design and implement a webpage using
               semantic elements <br> • CSS design principles <br> • Block level Semantic<br>  •
               Modeling boxes<br>  • Positioning
+</div>
+              
             </p>
           </div>
           <div
@@ -342,22 +346,90 @@
         </div>
       </div>
       <div class="content3 projects" id="proj-id">
-        <div class="d-grid gap-2 col-3">
+        <div class="pro-head">
+          <div class="d-grid gap-2 col-3">
           <button class="btn btn-outline-success" type="button">
             <h2>My Projects</h2>
           </button>
         </div>
+        </div>
         <!-- end in-page navigation -->
 
+          <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button
+        class="nav-link active"
+        id="nav-ndiah-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#nav-ndiah"
+        type="button"
+        role="tab"
+        aria-controls="nav-ndiah"
+        aria-selected="true"
+      >
+        Background
+      </button>
+      <button
+        class="nav-link"
+        id="nav-nweh-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#nav-nweh"
+        type="button"
+        role="tab"
+        aria-controls="nav-nweh"
+        aria-selected="false"
+      >
+        In Process
+      </button>
+    </div>
+  </nav>
+
+  <!-- CONTENT AREA BEGINS -->
+  <div class="tab-content" id="nav-tabContent">
+    <div
+      class="tab-pane fade show active"
+      id="nav-ndiah"
+      role="tabpanel"
+      aria-labelledby="nav-ndiah-tab"
+    >
+      <div class="projectdat">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est autem,
-          similique aut perspiciatis veniam corrupti voluptates aspernatur
-          repellendus id illo officia consequatur earum adipisci omnis laborum
-          atque saepe asperiores sunt nihil quasi magni obcaecati tempora eos.
-          Temporibus corrupti minus quaerat aliquid molestiae eius vel,
-          accusantium neque quo, laboriosam nemo cumque.
+          My interests in the emerging field of Digital Humanities led me to
+          programming. <br />Digital Humanities scholars strive to use digital
+          tools to solve problems in their field ranging from text mining,
+          archiving, analysis, to teaching and the retrieval of data that might
+          otherwise be inaccessible through traditional humanities tools.
         </p>
+        Thus, at the end of my training, I hope to be able to<br />
+        1) Design general purpose websites<br />
+        2) Design special websites tailored to the needs of humanities
+        researchers, teachers, and students as well as the general public
       </div>
+    </div>
+    <div
+      class="tab-pane fade"
+      id="nav-nweh"
+      role="tabpanel"
+      aria-labelledby="nav-nweh-tab"
+    >
+      <p>www.nweh.info</p>
+      <iframe
+        src="http://nweh.info/ "
+        width="100%"
+        height="600"
+        style="border: none"
+      >
+      </iframe>
+    </div>
+  </div>
+  <!-- project tab section END -->
+ 
+
+  
+    
+   
+  </div>
+   <!-- project tab section END -->
 
       <div>
         <!-- in-page navigation -->
@@ -368,22 +440,32 @@
         </div>
       </div>
       <div class="content4 about" id="about-id">
-        <div class="d-grid gap-2 col-3">
+        <div class="bout-head">
+          <div class="d-grid gap-2 col-3">
           <button class="btn btn-outline-success" type="button">
             <h2>About Me</h2>
           </button>
         </div>
+        </div>
         <!-- end in-page navigation -->
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est autem,
-          similique aut perspiciatis veniam corrupti voluptates aspernatur
-          repellendus id illo officia consequatur earum adipisci omnis laborum
-          atque saepe asperiores sunt nihil quasi magni obcaecati tempora eos.
-          Temporibus corrupti minus quaerat aliquid molestiae eius vel,
-          accusantium neque quo, laboriosam nemo cumque.
-        </p>
+        <div class="lead-about">
+          
+         
+<h4 class="h4 ">Growing up as a child,</h4> I had a very deep interest in creating things. But as life goes, I trailed off at some point and ended up as a humanities graduate.
+<p>However, my interests in creativity did not die as I reengaged my creative spirit in poetry and short story writing.</p>
+<p> <h5 class="h4">Yet,</h5> My romance with non-literary creative stuff did not die down.</p> 
+<p>I created my first website back in 2006 by just following Dreamweaver’s prompts. The site ran for two years and I became too busy with education, family, and health.</p>
+<h5 class="h5"><p>But I am back to Web Dev this time to stay…...</p></h5>
+        </div>
+        
       </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-outline-info me-md-2" type="button">
+            <a href="#"><h3></h3> <i class="fas fa-home"></i>Back Home</a>
+          </button>
+        </div>
     </div>
+    
     <footer class="foot">
       <div class="wrapper"><div class="card-group">
           <div class="card">
