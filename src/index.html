@@ -4,11 +4,406 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ferdinand Mbecha's Portfolio</title>
+    <title>Ferdinand Mbecha's</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles/main.css" />
+    <script
+      src="https://kit.fontawesome.com/b897e39dd5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/b897e39dd5.js" crossorigin="anonymous"></script>
   </head>
+  <!-- the thing begins here -->
   <body>
+    <!-- begin navigation -->
+    <div class="container0">
+      <nav class="navbar navbar-light">
+        <form class="container-fluid justify-content-center">
+          <button class="btn btn-outline-success me-2" type="button">
+            <a href="#">Home</a>
+          </button>
+          <button class="btn btn-outline-success me-2" type="button">
+            <a href="#skill-id">Skills</a>
+          </button>
+          <button class="btn btn-outline-success me-2" type="button">
+            <a href="#proj-id"> Projects</a>
+          </button>
+          <button class="btn btn-outline-success me-2" type="button">
+            <a href="#about-id">About</a>
+          </button>
+        </form>
+      </nav>
+    </div>
+
+    <!-- end navigation and start main content -->
+    <small class="text-muted">
+      <div class="myself">
+        <img src="./images/Mbecha_photo.jpg" class="image" />
+        <h3>
+          Mbecha's <br />
+          Ferdinand
+        </h3>
+
+        <h3>Portfolio</h3>
+      </div>
+    </small>
+    <div class="container main-content">
+      <div class="content1 home" id="home-id">
+        <h2 class="h1">Welcome to my world!</h2>
+
+        <p class="lead">
+          I am a programming student at the Digital Career Institute in Berlin,
+          Germany. <br />
+          I come to programming with a humanities background. <br />
+          This space is designed to showcase the progress I will be making
+          through during the training period
+          <br />
+        </p>
+      </div>
+      <div>
+        <!-- in-page navigation -->
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-outline-info me-md-2" type="button">
+            <a href="#"><h3></h3> <i class="fas fa-home"></i>Back Home</a>
+          </button>
+        </div>
+      </div>
+      <div class="content2 skills" id="skill-id">
+        <div class="d-grid gap-2 col-3">
+          <button class="btn btn-outline-success" type="button">
+            <h2>My Skills</h2>
+          </button>
+        </div>
+        <!-- end in-page navigation -->
+        <p>
+          I have been in training since January 11 this year. In the course of
+          which I have acquired the following skills
+        </p>
+
+        <!-- collapsing content start -->
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-home"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              Content
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-profile"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+            >
+              UI/UX
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-data-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-data"
+              type="button"
+              role="tab"
+              aria-controls="pills-data"
+              aria-selected="false"
+            >
+              Data
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-respo-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-respo"
+              type="button"
+              role="tab"
+              aria-controls="pills-respo"
+              aria-selected="false"
+            >
+              Responsivity
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-layout-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-layout"
+              type="button"
+              role="tab"
+              aria-controls="pills-layout"
+              aria-selected="false"
+            >
+              Layout
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-interact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-interact"
+              type="button"
+              role="tab"
+              aria-controls="pills-interact"
+              aria-selected="false"
+            >
+              Interactions
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-framework-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-framework"
+              type="button"
+              role="tab"
+              aria-controls="pills-framework"
+              aria-selected="false"
+            >
+              Frameworks
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-publish-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-publish"
+              type="button"
+              role="tab"
+              aria-controls="pills-publish"
+              aria-selected="false"
+            >
+              Publishing
+            </button>
+          </li>
+        </ul>
+        <!-- content for tab menu begin -->
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-home"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            <p>
+              <h3 class="awesome"> <i class="far fa-smile-beam"></i> Content </h3>
+              <i class="fas fa-check-circle">Extend basic web page structures, use graphical
+              elements and style with CSS</i>
+
+               • CSS Classes <br> • CSS Pseudo-classes <br> •
+              Debugging <br> <b>Box-Model:</b>  Goal: Design and implement a webpage using
+              semantic elements <br> • CSS design principles <br> • Block level Semantic<br>  •
+              Modeling boxes<br>  • Positioning
+            </p>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-profile"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+            <p >
+
+              <div class="ux-design">
+                </div>
+                <h3 class="awesome "> <i class="far fa-smile-beam"></i> UI/UX</h3>
+              <i class="fas fa-check-circle">Develop a webpage based on a user interface design</i> <br>
+
+
+              • styling texts <br> • icons <br> • using color
+              
+            </p>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="pills-data"
+            role="tabpanel"
+            aria-labelledby="pills-data-tab"
+          >
+            <p>
+              <div class="data">
+                </div>
+                <h3 class="awesome "> <i class="far fa-smile-beam"></i> Data Input & Output</h3>
+              <i class="fas fa-check-circle">Goal: Represent data in a web page</i> <br>
+               and create a registration form <br> • organizing data in tables <br>• styling tables <br>•
+              form and dynamic data <br>• inputs
+            </p>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-respo"
+            role="tabpanel"
+            aria-labelledby="pills-respo-tab"
+          >
+            <p>
+              <div class="responz">
+                </div>
+                <h3 class="awesome "> <i class="far fa-smile-beam"></i> Responsivity</h3>
+              <i class="fas fa-check-circle">Goal: Develop a responsive and mobile first web
+              page</i> <br>
+               • Mobile first <br> • media queries <br> • responsive design principles
+            </p>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-layout"
+            role="tabpanel"
+            aria-labelledby="pills-layout-tab"
+          >
+            <p>
+              <div class="outlay">
+                </div>
+                <h3 class="awesome "> <i class="far fa-smile-beam"></i> Layout</h3>
+              <i class="fas fa-check-circle">Goal: Design a layout in Figma and implement it </i> <br>
+              • Layout models <br>• flexbox <br>• CSS grid, <br> • design tools, use cases
+            </p>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="pills-interact"
+            role="tabpanel"
+            aria-labelledby="pills-interact-tab"
+          >
+            <p>
+              <div class="animations">
+                </div>
+                <h3 class="awesome "> <i class="far fa-smile-beam"></i> Interactions</h3>
+              <i class="fas fa-check-circle">Goals: Create CSS animation </i> <br>
+               • Shapes <br>• transition <br>
+              • animations with CSS effects
+            </p>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-framework"
+            role="tabpanel"
+            aria-labelledby="pills-framework-tab"
+          >
+            <p>
+               <div class="framing">
+                </div>
+                <h3 class="awesome "> <i class="far fa-smile-beam">Frameworks</i> </h3>
+              <i class="fas fa-check-circle">Goal: Create a landing page and publish it to GitHub
+              pages </i> <br>
+               • Bootstrap <br> • SASS  <br>| NPM | <br> • GitHub Pages
+            </p>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-publish"
+            role="tabpanel"
+            aria-labelledby="pills-publish-tab"
+          >
+            <p>
+              <div class="publisher">
+                </div>
+                <h3 class="awesome "> <i class="far fa-smile-beam">Publishing</i> </h3>
+              <i class="fas fa-check-circle">Goal: Publishing through the terminal with git </i> <br>
+             •
+              GitHub Pages using package
+            </p>
+          </div>
+        </div>
+        <!-- collapsing content end -->
+      </div>
+
+      <div>
+        <!-- in-page navigation -->
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-outline-info me-md-2" type="button">
+            <a href="#"><h3></h3> <i class="fas fa-home"></i>Back Home</a>
+          </button>
+        </div>
+      </div>
+      <div class="content3 projects" id="proj-id">
+        <div class="d-grid gap-2 col-3">
+          <button class="btn btn-outline-success" type="button">
+            <h2>My Projects</h2>
+          </button>
+        </div>
+        <!-- end in-page navigation -->
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est autem,
+          similique aut perspiciatis veniam corrupti voluptates aspernatur
+          repellendus id illo officia consequatur earum adipisci omnis laborum
+          atque saepe asperiores sunt nihil quasi magni obcaecati tempora eos.
+          Temporibus corrupti minus quaerat aliquid molestiae eius vel,
+          accusantium neque quo, laboriosam nemo cumque.
+        </p>
+      </div>
+
+      <div>
+        <!-- in-page navigation -->
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-outline-info me-md-2" type="button">
+            <a href="#"><h3></h3> <i class="fas fa-home"></i>Back Home</a>
+          </button>
+        </div>
+      </div>
+      <div class="content4 about" id="about-id">
+        <div class="d-grid gap-2 col-3">
+          <button class="btn btn-outline-success" type="button">
+            <h2>About Me</h2>
+          </button>
+        </div>
+        <!-- end in-page navigation -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est autem,
+          similique aut perspiciatis veniam corrupti voluptates aspernatur
+          repellendus id illo officia consequatur earum adipisci omnis laborum
+          atque saepe asperiores sunt nihil quasi magni obcaecati tempora eos.
+          Temporibus corrupti minus quaerat aliquid molestiae eius vel,
+          accusantium neque quo, laboriosam nemo cumque.
+        </p>
+      </div>
+    </div>
+    <footer class="foot">
+      <div class="wrapper"><div class="card-group">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <h4>I am also available on <i class="fab fa-linkedin"></i></h4>
+              </h5>
+            </div>
+          </div>
+        </div></div>
+   
+    </footer>
     <!-- Custom scripts, edit above this line -->
     <script src="scripts/index.js"></script>
+    <!-- bootstrap js code -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

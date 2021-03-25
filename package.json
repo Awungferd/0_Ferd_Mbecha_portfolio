@@ -18,10 +18,8 @@
   },
   "keywords": [],
   "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^4.5.0"
-  },
   "devDependencies": {
+    "bootstrap": "^4.6.0",
     "gh-pages": "latest",
     "live-server": "latest",
     "npm-run-all": "latest",

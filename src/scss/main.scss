@@ -1,2 +1,222 @@
 // This is where you can import other stylesheets or write your scss code
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../fonts/fontawesome-free-5.15.3-web/css/all.css";
+@import "../fonts/fontawesome-free-5.15.3-web/scss/solid.scss";
+
+body {
+  background: url(../images/main-bg3.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1em gold, 0 0 1em 1em red, 0 0 0 1em black;
+  // 0 0 0 3.7em yellowgreen, 0 0 0 4.4em green ;
+}
+.container0 {
+  top: 0px;
+  z-index: 1;
+  height: 10vh;
+  width: 100%;
+  background-color: rgba(140, 240, 178, 0.698);
+  position: fixed;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: inset 0px 50px 60px rgb(72, 108, 206);
+  .navbar {
+    border-bottom: solid rgba(235, 248, 52, 0.294);
+    background-color: rgba(70, 185, 17, 0.411);
+
+    height: 5vh;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    .btn {
+      margin-top: 2vh;
+      font-size: 1.5em;
+
+      border: none;
+      border-radius: 50%;
+    }
+    a:hover {
+      padding: 1em;
+      border-radius: 50%;
+      text-decoration: none;
+
+      background: linear-gradient(
+        to right,
+        rgba(45, 192, 32, 0.582) 20%,
+        rgba(180, 58, 58, 0.555) 40%,
+        rgba(221, 221, 221, 0.534) 90%
+      );
+    }
+  }
+}
+.myself {
+  display: flex;
+  position: fixed;
+  img {
+    border-radius: 50%;
+  }
+  writing-mode: vertical-lr;
+  z-index: 0;
+  top: 20vh;
+  width: 10%;
+  height: 200x;
+  background-color: rgba(95, 25, 89, 0.26);
+  border-radius: 49% 51% 55% 45%;
+  h3 {
+    padding: 0.3em 1em 0 0;
+  }
+}
+.container {
+  top: 10vh;
+  position: relative;
+  border: rgb(226, 235, 232) solid;
+  border-radius: 18%;
+  margin-bottom: 3rem;
+  background: rgb(172, 230, 230);
+  background: url(../images/nightsky-bg2.jpg) no-repeat;
+  background-size: cover;
+  .content1 {
+    padding: 1em 3em;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    margin-bottom: 1rem;
+    background-color: rgba(181, 211, 235, 0.164);
+    height: 90vh;
+    box-shadow: inset 0px -100px 10px rgba(74, 94, 206, 0.65),
+      inset -20px 100px 10px rgba(138, 212, 96, 0.568);
+
+    h2 {
+      text-align: center;
+
+      width: fit-content;
+      margin: auto;
+    }
+
+    .rounded {
+      border: solid rgba(255, 0, 0, 0.226);
+      width: 100px;
+      border-radius: 50%;
+      margin: auto;
+    }
+    p {
+      width: 70%;
+      margin: 50px auto;
+      background: honeydew;
+      padding: 5em 8em 5em 1em;
+      border: solid rgba(128, 0, 0, 0.513);
+      border-radius: 30% 70% 20% 40%;
+    }
+  }
+
+  .content2,
+  .content3,
+  .content4 {
+    padding: 6em 3em;
+    // border-top-left-radius: inherit;
+    // border-top-right-radius: inherit;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    margin-bottom: 1rem;
+    background-color: rgb(125, 189, 241);
+    height: 90vh;
+
+    h2 {
+      text-align: center;
+
+      width: fit-content;
+      margin: auto;
+    }
+  }
+  .content2 {
+    .nav {
+      background-color: rgb(80, 103, 177);
+      border-radius: 30% $border-radius;
+      li:hover {
+        background-color: cornflowerblue;
+      }
+    }
+
+    .tab-pane {
+      color: white;
+      font-size: 1.4em;
+      border-radius: $border-radius 10%;
+      background-color: adjust-hue($color: #856262, $degrees: 180);
+      width: 70%;
+      padding: 0 2em;
+      margin: auto;
+    }
+    .awesome {
+      color: adjust-hue($color: #84849e, $degrees: 150);
+      font-weight: bold;
+    }
+  }
+  .ux-design {
+    width: 100%;
+    height: 15em;
+    background: url(../images/user-interface2.jpg) no-repeat;
+    background-size: cover;
+  }
+  .data {
+    width: 100%;
+    height: 12em;
+    background: url(../images/data2.jpg) no-repeat;
+    background-size: cover;
+  }
+  .responz {
+    width: 100%;
+    height: 12em;
+    background: url(../images/responsive.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .outlay {
+    width: 100%;
+    height: 12em;
+    background: url(../images/weblayout.jpg) no-repeat;
+    background-size: cover;
+  }
+  .animations {
+    width: 100%;
+    height: 12em;
+    background: url(../images/interactions.jpg) no-repeat;
+    background-size: cover;
+  }
+  .framing {
+    width: 100%;
+    height: 12em;
+    background: url(../images/gitlab.jpg) no-repeat;
+    background-size: cover;
+  }
+  .publisher {
+    width: 100%;
+    height: 12em;
+    background: url(../images/publish.jpg) no-repeat;
+    background-size: cover;
+  }
+  main {
+    background-color: rgb(80, 71, 163);
+    width: 80%;
+    height: 80vh;
+    border: solid 5m blue;
+    margin: auto;
+  }
+}
+footer {
+  padding-top: 10vh;
+  border-top: solid rgb(255, 208, 0);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  z-index: 1;
+  height: 20vh;
+  width: 100%;
+  bottom: 0;
+  background-image: url(../images/bonfire2.jpg);
+  background-size: cover;
+  .wrapper {
+    height: 20vh;
+    width: 50%;
+    margin: auto;
+    border-radius: 40%;
+  }
+}
